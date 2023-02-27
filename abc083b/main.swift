@@ -5,14 +5,14 @@
 
 import Foundation
 
-let input = readLine()!.split(separator: " ")
-let intMax = Int(input[0])!
-let rangeMin = Int(input[1])!
-let rangeMax = Int(input[2])!
+let inputs = readLine()!.split(separator: " ")
+let inputMax = Int(inputs[0])!
+let rangeMin = Int(inputs[1])!
+let rangeMax = Int(inputs[2])!
 
 var answer = 0
 
-for n in 0...intMax {
+for n in 0...inputMax {
     let nStr = String(n)
     let nArr = Array(nStr)
     var sum = 0
